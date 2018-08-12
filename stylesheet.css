@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+  font-family: "Playfair Display", Helvetica;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: lightblue;
+}
+
+#header-img {
+  width: 9%;
+  border-radius: 30%;
+  margin-top: 3%;
+  margin-left: 5%;
+  border: 1px solid black;
+  vertical-align: sub;
+}
+
+.company {
+  font-size: 35px;
+  font-family: "Playfair Display", Helvetica;
+}
+
+#nav-bar {
+  width: 100%;
+  text-align: right;
+  padding: 1%;
+  font-family: "Playfair Display", Helvetica;
+  word-spacing: 25px;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: black;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.video {
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+}
+
+#benefits {
+  margin-left: 5%;
+}
+
+.benefit {
+  font-size: 5vh;
+}
+
+.benefits {
+  list-style: none;
+  margin: 1%;
+  font-size: 3vh;
+}
+
+.container {
+  display: flex;
+  justify-items: center;
+  margin: 5px;
+}
+
+.options {
+  width: 33%;
+  padding: 1%;
+}
+
+#form {
+  text-align: center;
+}
+
+footer {
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  #header {
+    flex-wrap: wrap;
+  }
+}
